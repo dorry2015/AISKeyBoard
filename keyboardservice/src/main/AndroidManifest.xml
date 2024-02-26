@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.adbkeyboard"
+    package="com.android.aisinput"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -10,7 +10,7 @@
         android:theme="@style/AppTheme" >
         
         <!-- Declares the input method service -->
-        <service android:name="AdbIME"
+        <service android:name="com.android.aisinput.AisIME"
             android:label="@string/keyboard_name"
             android:permission="android.permission.BIND_INPUT_METHOD">
             <intent-filter>

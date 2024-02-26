@@ -1,4 +1,4 @@
-package com.android.adbkeyboard;
+package com.android.aisinput;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -6,14 +6,13 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.inputmethodservice.InputMethodService;
 import android.util.Base64;
-import android.util.Log;
 import android.view.InputDevice;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.inputmethod.ExtractedTextRequest;
 import android.view.inputmethod.InputConnection;
 
-public class AdbIME extends InputMethodService {
+public class AisIME extends InputMethodService {
 	private String IME_MESSAGE = "ADB_INPUT_TEXT";
 	private String IME_CHARS = "ADB_INPUT_CHARS";
 	private String IME_KEYCODE = "ADB_INPUT_CODE";
